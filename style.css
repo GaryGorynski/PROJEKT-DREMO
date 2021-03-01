@@ -1,0 +1,74 @@
+/* Wymiary strony */
+body {
+    position: relative;
+width: 1440px;
+height: 6318px;
+
+background: #FFFFFF;
+border-radius: 30px;
+}
+.naglowek {
+    position: absolute;
+width: 1440px;
+height: 1156px;
+left: 0px;
+top: 47px;
+}
+/* Wymiary strony */
+
+
+
+
+/* NAWIGACJA */     
+.nawi__logo {
+    position: absolute;
+width: 192px;
+height: 114px;
+left: 94px;
+top: 47px;
+float: left;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+
+color: #4270C9;
+}
+/* Chciałem ustawić wszystkie zmienne w klasie całej nawi (.nawi {}) a się nie udało i musiałem dzieci, czemu? */
+.nawi {
+    display:inline-flexbox;
+    justify-content: center;
+}
+ul {
+    margin:0 auto;
+    width:30%;
+    display:flex;
+    justify-content:space-between;
+    }
+.nawi__list .nawi__list-item {
+    display: inline;
+    list-style-type:none;
+    float: right;
+}
+
+/* KONIEC NAWIGACJI */
+.obraz {
+    position: absolute;
+    width: 1440px;
+    height: 640px;  
+    left: 0px;
+top: 459px;
+}
+.bubu {
+    position: absolute;
+width: 141px;
+height: 47px;
+left: 815px;
+top: 53px;
+
+background: #4270C9;
+box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
+border-radius: 30px;
+}
