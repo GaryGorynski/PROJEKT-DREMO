@@ -36,6 +36,9 @@ line-height: 54px;
 
 color: #4270C9;
 }
+.nawi__logo-span {
+    color: black;
+}
 /* Chciałem ustawić wszystkie zmienne w klasie całej nawi (.nawi {}) a się nie udało i musiałem dzieci, czemu? */
 .nawi {
     display:inline-flexbox;
@@ -46,29 +49,121 @@ ul {
     width:30%;
     display:flex;
     justify-content:space-between;
+    font-family: Poppins;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+float: right;
+list-style-type:none;
     }
-.nawi__list .nawi__list-item {
-    display: inline;
-    list-style-type:none;
-    float: right;
+.nawi__list-item--1 {
+        position: absolute;
+width: 48px;
+height: 24px;
+left: 727px;
+top: 66px;
+    }
+.nawi__list-item--2 {
+        position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 845px;
+    top: 64px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    }
+.nawi__list-item--3 {
+        position: absolute;
+    width: 141px;
+    height: 47px;
+    left: 815px;
+    top: 53px;
+    
+    background: #4270C9;
+    box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
+    border-radius: 30px;
+    }  
+.nawi__list-item--4 {
+        position: absolute;
+width: 71px;
+height: 24px;
+left: 975px;
+top: 64px;
+    }
+.nawi__list-item--5 {
+        position: absolute;
+width: 68px;
+height: 24px;
+left: 1073px;
+top: 64px;
+    }
+.nawi__list-item--6 {
+        position: absolute;
+width: 64px;
+height: 24px;
+left: 1168px;
+top: 64px;
+
+    }
+.nawi__list-item--7 {
+       position: absolute;
+       width: 53px;
+       height: 24px;
+       left: 1264px;
+       top: 64px;
+   }
+/* KONIEC NAWIGACJI */
+.naglowek__heading-p {
+    position: absolute;
+width: 946px;
+height: 154px;
+left: 404px;
+top: 202px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+.naglowek__heading-p2 {
+    position: absolute;
+width: 659px;
+height: 36px;
+left: 363px;
+top: 389px;
+
+font-family:roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #656565;
+}
+.naglowek__heading-p2-span {
+    text-decoration: underline;
+    font-family:roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
 }
 
-/* KONIEC NAWIGACJI */
 .obraz {
     position: absolute;
     width: 1440px;
     height: 640px;  
     left: 0px;
 top: 459px;
-}
-.bubu {
-    position: absolute;
-width: 141px;
-height: 47px;
-left: 815px;
-top: 53px;
-
-background: #4270C9;
-box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
-border-radius: 30px;
 }
