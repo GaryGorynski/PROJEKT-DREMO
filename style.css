@@ -24,15 +24,16 @@ top: 47px;
     position: absolute;
 width: 192px;
 height: 114px;
-left: 94px;
-top: 47px;
+left: 60px;
+top: 35px;
 float: left;
-
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 54px;
+font-weight:bolder;
+
 
 color: #4270C9;
 }
@@ -56,54 +57,57 @@ font-size: 16px;
 line-height: 24px;
 float: right;
 list-style-type:none;
+
     }
-.nawi__list-item--1 {
+.nawi__list-item--home {
         position: absolute;
 width: 48px;
 height: 24px;
 left: 727px;
 top: 66px;
-    }
-.nawi__list-item--2 {
-        position: absolute;
-    width: 86px;
-    height: 24px;
-    left: 845px;
-    top: 64px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
 
     }
-.nawi__list-item--3 {
+    .nawi__list-item--findhome {
         position: absolute;
-    width: 141px;
-    height: 47px;
-    left: 815px;
-    top: 53px;
-    
-    background: #4270C9;
-    box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
-    border-radius: 30px;
-    }  
-.nawi__list-item--4 {
+width: 86px;
+height: 24px;
+left: 845x;
+top: 64px;
+color: white;
+padding-left: 10px;
+position: absolute;
+width: 141px;
+height: 47px;
+left: 815px;
+top: 53px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 47px;
+background: #4270C9;
+box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
+border-radius: 30px;
+padding-left: 10px;
+    }
+
+
+
+.nawi__list-item--about {
         position: absolute;
 width: 71px;
 height: 24px;
 left: 975px;
 top: 64px;
     }
-.nawi__list-item--5 {
+.nawi__list-item--loc {
         position: absolute;
 width: 68px;
 height: 24px;
 left: 1073px;
 top: 64px;
     }
-.nawi__list-item--6 {
+.nawi__list-item--rev {
         position: absolute;
 width: 64px;
 height: 24px;
@@ -111,45 +115,67 @@ left: 1168px;
 top: 64px;
 
     }
-.nawi__list-item--7 {
+.nawi__list-item--signin {
        position: absolute;
        width: 53px;
        height: 24px;
        left: 1264px;
        top: 64px;
+       
    }
 /* KONIEC NAWIGACJI */
 .naglowek__heading-p {
-    position: absolute;
+position:absolute;
 width: 946px;
 height: 154px;
-left: 404px;
-top: 202px;
-
+left: 220px;
+top: 185px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
+font-weight:bold;
 font-size: 64px;
 line-height: 77px;
+color: black;
+text-align: center;
 
-color: #000000;
 }
-.naglowek__heading-p2 {
-    position: absolute;
-width: 659px;
+.dream {
+    color: rgb(95, 95, 249);
+    text-align-last: center;
+}
+/*  position: absolute;
+width: 540px;
 height: 36px;
-left: 363px;
+left: 440px;
 top: 389px;
 
 font-family:roboto;
 font-style: normal;
-font-weight: 300;
+font-weight: 100;
 font-size: 24px;
-line-height: 36px;
-/* identical to box height */
+line-height: 50px; */
 
-
-color: #656565;
+.naglowek__heading-p2 {
+    position: absolute;
+    text-align: center;
+    width: 659px;
+    height: 36px;
+    left: 363px;
+    top: 389px;
+    
+    font-family: roboto;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight:500;
+    
+    /* identical to box height */
+    
+    
+    color: #656565;
+    
+        
 }
 .naglowek__heading-p2-span {
     text-decoration: underline;
@@ -160,6 +186,7 @@ font-size: 24px;
 line-height: 36px;
 }
 
+
 .obraz {
     position: absolute;
     width: 1440px;
@@ -167,3 +194,9 @@ line-height: 36px;
     left: 0px;
 top: 459px;
 }
+
+/* Are you looking for dream home? */
+
+
+
+
