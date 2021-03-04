@@ -172,8 +172,6 @@ line-height: 36px;
 
 .obraz {
 position: absolute;
-width: 1440px;
-height: 640px;  
 left: 0px;
 top: 459px;
 }
@@ -217,8 +215,70 @@ font-family: poppins;
     top: 38px;
     left:150px; 
 }
-/* SELECT /*
+/* KONIEC SELECT */
 
+
+/* Sekcja */
+.sekcja {
+    position: absolute;
+width: 1015px;
+height: 706px;
+left: 201px;
+top: 1308px;
+}
+.sekcja__h1 {
+    position: absolute;
+    width: 247px;
+    height: 60px;
+    left: 390px;
+    top: 0px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+color: #000000;
+}
+
+.sekcja__p1 {
+    position: absolute;
+width: 510px;
+left: 250px;
+top: 100px;
+text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight:normal;
+font-size: 14px;
+letter-spacing: 0.030em;
+}
+
+.sekcja__img1 {
+    position: absolute;
+left: 20px;
+top:  230px;
+
+background: url(image.png);
+border-radius: 5px;
+transform: rotate(0.41deg);
+}
+.sekcja__img2 {
+    position: absolute;
+left: 350px;
+top: 260px;
+
+background: url(image.png);
+filter: drop-shadow(0px 16px 24px rgba(112, 144, 176, 0.2));
+border-radius: 5px;
+}
+.sekcja__img3 {
+    position: absolute;
+left: 690px;
+top: 240px;
+
+background: url(image.png);
+border-radius: 5px;
+}
+/* Koniec sekcji */
 
 
 
